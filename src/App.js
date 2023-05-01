@@ -2,13 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Home from './components/Home';
+import Home from './pages/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Series from './components/Series';
-import Films from './components/Films';
-import New from './components/New';
-import List from './components/List';
-import Browse from './components/Browse';
+import Series from './pages/Series';
+import Films from './pages/Films';
+import New from './pages/New';
+import List from './pages/List';
+import Browse from './pages/Browse';
 
 function App() {
   return (
