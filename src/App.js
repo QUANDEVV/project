@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Home from './pages/Home';
+import Home from './Home/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Series from './pages/Series';
 import Films from './pages/Films';
