@@ -9,6 +9,7 @@ import Films from './pages/Films';
 import New from './pages/New';
 import List from './pages/List';
 import Browse from './pages/Browse';
+import Hero from './components/Hero';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
 
 
     <Navbar />
+    <Hero />
 
     <Routes classname="pt-10">
     <Route path='/' element={<Home/>}></Route>
