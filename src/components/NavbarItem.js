@@ -16,14 +16,15 @@
 // export default NavbarItem;
 
 
-import React from 'react'
+import React from 'react';
 
-const NavbarItem = ({ label }) => {
 
-  console.log(label)
+const NavbarItem = ({ label, active }) => {
   return (
-    <a href="/" style={{ color: 'white' }}>{label}</a>
+    <div className={active ? 'text-white cursor-default' : 'text-gray-200 hover:text-gray-300 cursor-pointer transition'}>
+      {label}
+    </div>
   )
 }
 
-export default NavbarItem
+export default NavbarItem;
