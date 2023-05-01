@@ -16,19 +16,14 @@
 // export default NavbarItem;
 
 
-import React from 'react';
+import React from 'react'
 
-interface NavbarItemProps {
-  label: string;
-  active?: boolean;
-}
+const NavbarItem = ({ label }) => {
 
-const NavbarItem: React.FC<NavbarItemProps> = ({ label, active }) => {
+  console.log(label)
   return (
-    <div className={active ? 'text-white cursor-default' : 'text-gray-200 hover:text-gray-300 cursor-pointer transition'}>
-      {label}
-    </div>
+    <a href="/" style={{ color: 'white' }}>{label}</a>
   )
 }
 
-export default NavbarItem;
+export default NavbarItem
