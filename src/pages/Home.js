@@ -20,9 +20,22 @@ const Home = () => {
     Top Rated
     </div><div>
       upcoming
-    </div><div>
+    </div>
+    Trending
+    <div className="pt-20">
       Horror
     </div>
+
+
+   <div className='pt-60'>
+
+   </div>
+
+
+
+
+
+    
     
     </div>
   )
