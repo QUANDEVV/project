@@ -18,10 +18,13 @@
 
 import React from 'react';
 
+const NavbarItem = ({ label, active, link }) => {
+  const handleClick = () => {
+    window.location.href = link;
+  }
 
-const NavbarItem = ({ label, active }) => {
   return (
-    <div className={active ? 'text-white cursor-default' : 'text-gray-200 hover:text-gray-300 cursor-pointer transition'}>
+    <div className={active ? 'text-white cursor-default' : 'text-gray-200 hover:text-gray-300 cursor-pointer transition'} onClick={handleClick}>
       {label}
     </div>
   )
