@@ -47,8 +47,8 @@ function Main() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/app' element={<App />} />
-          <Route path='/' element={<Enter />} />
+          <Route path='/app' element={<App />} ></Route>
+          <Route path='/' element={<Enter />} ></Route>
         </Routes>
       </BrowserRouter>
     </>
