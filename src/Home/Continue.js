@@ -25,17 +25,20 @@ const Continue = () => {
         {movies.map((movie, index) => (
           <div
             key={movie.id}
-            className={`bg-white rounded-lg shadow-lg overflow-hidden ${
-              index === hoverIndex ? 'scale-105 transition duration-300' : ''
+            className={`bg-black rounded-lg shadow-lg overflow-hidden ${
+              index === hoverIndex ? 'scale-110 transition duration-300 h-72' : 'h-64'
             }`}
             onMouseEnter={() => handleHover(index)}
             onMouseLeave={handleLeave}
+            style={{ display: 'flex', flexDirection: 'column' }}
           >
             <img src={movie.poster} alt={movie.title} className="w-full h-48 object-cover" />
-            <div className="px-4 py-2">
-              <h3 className="text-lg font-bold mb-2">{movie.title}</h3>
-              <p className="text-gray-700 text-base">{movie.description}</p>
-            </div>
+            {index === hoverIndex && (
+              <div className="px-4 py-2">
+                <h3 className="text-lg font-bold mb-2">{movie.title}</h3>
+                <p className="text-gray-700 text-base">{movie.description}</p>
+              </div>
+            )}
           </div>
         ))}
       </div>
