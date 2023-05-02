@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = () => {
   return (
     <div className="relative h-[36.25vw]">
-    <video  className="w-full h-full object-cover brightness-[60%] transition duration-500" autoPlay muted loop src='./vid.mp4'></video>
+    <video  className="w-full h-[36.25vw] object-cover brightness-[60%] transition duration-500" autoPlay muted loop src='./vid.mp4'></video>
     <div className="absolute top-[30%] md:top-[40%] ml-4 md:ml-16">
       <p className="text-white text-1xl md:text-5xl h-full w-[50%] lg:text-6xl font-bold drop-shadow-xl">
       

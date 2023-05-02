@@ -16,10 +16,12 @@ const Featured = () => {
         {movies.map(movie => ( // map through the movies state instead of Featured
           <div key={movie.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img src={movie.poster} alt={movie.title} className="w-full h-48 object-cover" />
-            <div className="px-4 py-2">
+
+            
+            {/* <div className="px-4 py-2">
               <h3 className="text-lg font-bold mb-2">{movie.title}</h3>
               <p className="text-gray-700 text-base">{movie.description}</p>
-            </div>
+            </div> */}
           </div>
         ))}
       </div>
