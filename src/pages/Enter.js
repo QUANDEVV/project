@@ -25,7 +25,7 @@ function Enter() {
             </div>
             <div className='w-44 h-44 rounded-md flex items-center justify-center border-2 border-transparent group-hover:cursor-pointer group-hover:border-white overflow-hidden'>
               <Link to='/app'>
-                <img src='logo4.pjpeg' alt='logozz' />
+                <img src='logo4.jpeg' alt='logozz' />
               </Link>
             </div>
             <div className='w-44 h-44 rounded-md flex items-center justify-center border-2 border-transparent group-hover:cursor-pointer group-hover:border-white overflow-hidden'>
