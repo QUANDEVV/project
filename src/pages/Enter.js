@@ -1,6 +1,7 @@
-// Enter.js
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ReactDOM from 'react-dom';
+import App from '../App';
+import { Link, BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function Enter() {
   return (
@@ -10,19 +11,29 @@ function Enter() {
         <div className='flex justify-center mt-10'>
           <div className='flex gap-8'>
             <div className='w-44 h-44 rounded-md flex items-center justify-center border-2 border-transparent group-hover:cursor-pointer group-hover:border-white overflow-hidden'>
-              <Link to='/app'><img src='logo5.jpeg' alt='logozz' /></Link>
+              <Link to='/app'>
+                <img src='logo5.jpeg' alt='logozz' />
+              </Link>
             </div>
             <div className='w-44 h-44 rounded-md flex items-center justify-center border-2 border-transparent group-hover:cursor-pointer group-hover:border-white overflow-hidden'>
-              <Link to='/app'><img src='logo2.png' alt='logozz' /></Link>
+              <Link to='/app'>
+                <img src='logo2.png' alt='logozz' />
+              </Link>
             </div>
             <div className='w-44 h-44 rounded-md flex items-center justify-center border-2 border-transparent group-hover:cursor-pointer group-hover:border-white overflow-hidden'>
-              <Link to='/app'><img src='logo3.png' alt='logozz' /></Link>
+              <Link to='/app'>
+                <img src='logo3.png' alt='logozz' />
+              </Link>
             </div>
             <div className='w-44 h-44 rounded-md flex items-center justify-center border-2 border-transparent group-hover:cursor-pointer group-hover:border-white overflow-hidden'>
-              <Link to='/app'><img src='logo4.pjpeg' alt='logozz' /></Link>
+              <Link to='/app'>
+                <img src='logo4.pjpeg' alt='logozz' />
+              </Link>
             </div>
             <div className='w-44 h-44 rounded-md flex items-center justify-center border-2 border-transparent group-hover:cursor-pointer group-hover:border-white overflow-hidden'>
-              <Link to='/app'><img src='logo6.jpeg' alt='logozz' /></Link>
+              <Link to='/app'>
+                <img src='logo6.jpeg' alt='logozz' />
+              </Link>
             </div>
           </div>
         </div>
@@ -31,4 +42,17 @@ function Enter() {
   );
 }
 
-export default Enter;
+function Main() {
+  return (
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/app' element={<App />} />
+          <Route path='/' element={<Enter />} />
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
+}
+
+export default Main;

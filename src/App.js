@@ -9,27 +9,46 @@ import New from './pages/New';
 import List from './pages/List';
 import Browse from './pages/Browse';
 import Hero from './components/Hero';
-import Enter from './components/Enter';
+
 
 function App() {
   return (
     <>
     <BrowserRouter>
-      <Navbar />
-      <Hero />
-      <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/series' element={<Series />} />
-        <Route path='/films' element={<Films />} />
-        <Route path='/new' element={<New />} />
-        <Route path='/list' element={<List />} />
-        <Route path='/browse' element={<Browse />} />
-        <Route path='/enter' element={<Enter />} />
-      </Routes>
-      <Footer />
+
+
+    <Navbar />
+    <Hero />
+   
+    <Routes classname="pt-10">
+    <Route path='/' element={<Home/>}></Route>
+      
+    <Route path='/series' element={<Series />}></Route>
+
+
+    <Route path='/Films' element={<Films />}></Route>
+
+
+  <Route path='/new' element={<New />}></Route>
+
+
+  <Route path='/list' element={<List />}></Route>
+
+
+  <Route path='/browse' element={<Browse />}></Route>
+     
+     
+     
+    </Routes>
     </BrowserRouter>
+ 
+    
+    <Footer />
+    
     </>
   );
 }
 
 export default App;
+
+
