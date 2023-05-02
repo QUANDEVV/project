@@ -10,6 +10,7 @@ import New from './pages/New';
 import List from './pages/List';
 import Browse from './pages/Browse';
 import Hero from './components/Hero';
+import Enter from './pages/Enter';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
 
 
     <Navbar />
+    
     <Hero />
 
     <Routes classname="pt-10">
@@ -44,6 +46,7 @@ function App() {
  
     
     <Footer />
+    <Enter />
     </>
   );
 }
