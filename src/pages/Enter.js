@@ -42,17 +42,6 @@ function Enter() {
   );
 }
 
-function Main() {
-  return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path='/app' element={<App />} ></Route>
-          <Route path='/' element={<Enter />} ></Route>
-        </Routes>
-      </BrowserRouter>
-    </>
-  );
-}
 
-export default Main;
+
+export default Enter;

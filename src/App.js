@@ -20,7 +20,13 @@ function App() {
     <Navbar />
     <Hero />
    
-    <Routes classname="pt-10">
+    <Routes className="pt-10">
+    <Route path='/app' element={<App />} ></Route>
+
+
+    <Route path='/' element={<Enter />} ></Route>
+
+
     <Route path='/' element={<Home/>}></Route>
       
     <Route path='/series' element={<Series />}></Route>
