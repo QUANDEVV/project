@@ -1,7 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from '../App';
-import { Link, BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Enter() {
   return (
