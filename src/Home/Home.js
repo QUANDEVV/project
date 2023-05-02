@@ -5,13 +5,14 @@ import Scifi from './Scifi'
 import New from './New'
 import Anime from './Anime'
 import Action from './Action'
+import Hero from '../components/Hero'
 
 const Home = () => {
   return (
-    <div className='text-white pt-20'>
+    <div className='text-white '>
 
 
-
+      <Hero />
       <Continue />
       <Featured />
       <Scifi />

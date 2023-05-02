@@ -19,9 +19,7 @@ function App() {
 
 
     <Navbar />
-    
-    <Hero />
-
+   
     <Routes classname="pt-10">
     <Route path='/' element={<Home/>}></Route>
       
