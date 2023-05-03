@@ -49,7 +49,7 @@ function App() {
 
 
   return (
-    <div className=" bg-white dark:bg-black  ">
+    <div className=" dark:bg-black  ">
 
    
       {!selectedProfile ? (

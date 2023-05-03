@@ -33,7 +33,7 @@ const Navbar = ( ) => {
       <img src='/logo.png' alt='' className="h-4 lg:h-7" />
      
       <div className="flex-row ml-8 gap-7 lg:flex md:flex-row ">
-      <NavbarItem label="Home" active link="/" />
+      <NavbarItem label="Home" link="/" />
 <NavbarItem label="Series" link="/series" />
 <NavbarItem label="Films" link="/films" />
 <NavbarItem label="New & Popular" link="/new" />

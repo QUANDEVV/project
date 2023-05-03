@@ -24,7 +24,7 @@ const NavbarItem = ({ label, active, link }) => {
   }
 
   return (
-    <div className={active ? 'text-white cursor-default' : 'text-gray-200 hover:text-gray-300 cursor-pointer transition text-black dark:text-white'} onClick={handleClick}>
+    <div className={active ? 'text-white cursor-default' : 'text-black hover:text-gray-300 cursor-pointer transition text-black dark:text-white'} onClick={handleClick}>
       {label}
     </div>
   )
