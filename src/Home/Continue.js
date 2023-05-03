@@ -19,14 +19,14 @@ const Continue = () => {
   };
 
   return (
-    <div className="container mx-auto my-5">
+    <div className=" container mx-auto my-5 mt-10">
       <h2 className="text-3xl font-bold mb-5">Continue Watching For group 6</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-10 mb-20">
         {movies.map((movie, index) => (
           <div
             key={movie.id}
             className={`bg-black rounded-lg shadow-lg overflow-hidden ${
-              index === hoverIndex ? 'scale-110 transition duration-300 h-72' : 'h-64'
+              index === hoverIndex ? 'scale-110 transition duration-300 h-70' : 'h-70'
             }`}
             onMouseEnter={() => handleHover(index)}
             onMouseLeave={handleLeave}
@@ -46,4 +46,8 @@ const Continue = () => {
   );
 };
 
-export default Continue;
+export default Continue;   
+
+
+
+

@@ -7,7 +7,7 @@
       "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
       "releaseYear": 2016,
       "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABRopyssXMefCQFU3dpXqIp9BdepkSp-oXbGG5hn2QFNVAwazvlco13sDEb_I26sdeV1N1Z5vC7-KRK7uZO--W4wyUpn8op77cbJEGdkHneMVbfDQ0RtfkWuOA8PbiSnipmOs.jpg?r=a05",
-      "trailer": ""
+      "url": "/home/kennedy/PHASE-2/project/public/vids.mp4"
     },
     {
       "id": 2,
@@ -60,7 +60,27 @@
   }
 
 ],
-"Scifi"  : [],
+"Scifi"  : [
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  }
+
+],
 "New" : [],
 "Anime": [],
 "Action" : []
