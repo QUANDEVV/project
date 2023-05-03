@@ -11,7 +11,7 @@ import Browse from './pages/Browse';
 
 import Enter from './pages/Enter';
 import LandingPage from './pages/LandingPage';
-import React, { useState } from 'react'; // import the useState hook from React
+import { useState, useEffect } from "react"; // import the useState hook from React
 
 function App() {
   const [selectedProfile, setSelectedProfile] = useState(
@@ -23,14 +23,42 @@ function App() {
     localStorage.setItem('selectedProfile', JSON.stringify(profile));
   };
 
+
+  const [theme, setTheme] = useState(null);
+
+  useEffect(() => {
+    if(window.matchMedia('(prefers-color-scheme: dark)').matches){
+      setTheme('dark');
+    }
+    else {
+      setTheme('light');
+    }
+  }, [])
+
+  useEffect(() => {
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [theme]);
+
+  const handleThemeSwitch = () => {
+    setTheme(theme === "dark" ? "light" : "dark");
+  };
+
+
   return (
-    <>
+    <div className=" bg-white dark:bg-black  ">
+
+   
       {!selectedProfile ? (
         <LandingPage setProfile={setProfile} />
       ) : (
         <>
           <BrowserRouter>
             <Navbar />
+            
             <Routes className="pt-10">
               <Route path='/' element={<Home />}></Route>
               <Route path='/Enter' element={<Enter />}></Route>
@@ -44,7 +72,7 @@ function App() {
           <Footer />
         </>
       )}
-    </>
+    </div>
   );
 }
 
