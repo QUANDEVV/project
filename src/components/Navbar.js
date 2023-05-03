@@ -2,6 +2,8 @@ import React from 'react'
 import NavbarItem from './NavbarItem'
 import { useEffect ,  useState } from 'react';
 import { BellIcon, MagnifyingGlassIcon,  } from '@heroicons/react/24/outline';
+import RiAccountBoxLine from 'react-icons'
+
 
 const Navbar = ( ) => {
 
@@ -55,7 +57,7 @@ const Navbar = ( ) => {
           <div className="text-gray-200 hover:text-gray-300 cursor-pointer transition">
             <BellIcon className="w-6 dark:text-white text-black" />
           </div>
-
+          <RiAccountBoxLine />
 
       </div>
 
