@@ -1,6 +1,7 @@
 import React from 'react'
 import NavbarItem from './NavbarItem'
 import { useEffect ,  useState } from 'react';
+import { BellIcon, MagnifyingGlassIcon,  } from '@heroicons/react/24/outline';
 
 const Navbar = ( ) => {
 
@@ -39,13 +40,23 @@ const Navbar = ( ) => {
 <NavbarItem label="New & Popular" link="/new" />
 <NavbarItem label="My List" link="/list" />
 <NavbarItem label="Browse by languages" link="/browse" />
+        </div>
 
 
-<button className="bg-green-200 p-4 rounded-3xl" onClick={handleThemeSwitch}>
+ 
+        <div  className="flex flex-row ml-auto gap-7 items-center">
+        
+        <button className="bg-green-200 gap-7 p-4 rounded-3xl" onClick={handleThemeSwitch}>
         Dark Mode
       </button>
 
-        </div>
+
+
+      </div>
+
+
+
+
       </div>
       
 
