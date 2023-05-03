@@ -3,6 +3,7 @@ import NavbarItem from './NavbarItem'
 import { useEffect ,  useState } from 'react';
 import { BellIcon, MagnifyingGlassIcon, ChevronDownIcon } from '@heroicons/react/24/outline';
 import { AccountMenu } from './AccountMenu';
+import { RxSwitch } from 'react-icons/rx'
 
 
 
@@ -48,10 +49,11 @@ const Navbar = ( ) => {
 
  
         <div  className="flex flex-row ml-auto gap-6 items-center">
+        <RxSwitch className='text-black dark:text-white  rounded-3xl h-6 w-6'  onClick={handleThemeSwitch}  />
         
-        <button className="bg-green-200 gap-7 p-2 rounded-3xl" onClick={handleThemeSwitch}>
+        {/* <button className="bg-green-200 gap-7 p-2 rounded-3xl" onClick={handleThemeSwitch}>
         Dark Mode
-      </button>
+      </button> */}
       <div className="text-gray-200 hover:text-gray-300 cursor-pointer transition">
             <MagnifyingGlassIcon className="w-6 dark:text-white text-black" />
           </div>
