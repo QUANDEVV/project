@@ -19,7 +19,7 @@ function App() {
 
 
     <Navbar />
-    <Hero />
+ 
    
     <Routes className="pt-10">
     <Route path='/' element={<Home/>}></Route>
