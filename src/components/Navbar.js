@@ -47,7 +47,7 @@ const Navbar = ( ) => {
 
 
  
-        <div  className="flex flex-row ml-auto gap-7 items-center">
+        <div  className="flex flex-row ml-auto gap-6 items-center">
         
         <button className="bg-green-200 gap-7 p-2 rounded-3xl" onClick={handleThemeSwitch}>
         Dark Mode
@@ -59,7 +59,7 @@ const Navbar = ( ) => {
             <BellIcon className="w-6 dark:text-white text-black" />
           </div>
           <div  className="flex flex-row items-center gap-2 cursor-pointer relative">
-            <div className="w-6 h-6 lg:w-10 lg:h-10 rounded-md overflow-hidden">
+            <div className="w-4 h-4 lg:w-10 lg:h-10 rounded-md overflow-hidden">
               <img src='/logo5.jpeg' alt="" />
             </div>
             <ChevronDownIcon className={`w-4 text-black fill-white transition  'rotate-180' : 'rotate-0'}`} />
