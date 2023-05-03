@@ -2,7 +2,7 @@ import React from 'react'
 import NavbarItem from './NavbarItem'
 import { useEffect ,  useState } from 'react';
 import { BellIcon, MagnifyingGlassIcon,  } from '@heroicons/react/24/outline';
-import RiAccountBoxLine from 'react-icons'
+import {RiAccountBoxLine} from 'react-icons/ri';
 
 
 const Navbar = ( ) => {
