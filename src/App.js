@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -10,6 +9,8 @@ import New from './pages/New';
 import List from './pages/List';
 import Browse from './pages/Browse';
 import Hero from './components/Hero';
+import Enter from './pages/Enter';
+
 
 function App() {
   return (
@@ -18,9 +19,14 @@ function App() {
 
 
     <Navbar />
+    <Hero />
    
-    <Routes classname="pt-10">
+    <Routes className="pt-10">
     <Route path='/' element={<Home/>}></Route>
+
+
+    <Route path='/Enter' element={<Enter />} ></Route>
+
       
     <Route path='/series' element={<Series />}></Route>
 
@@ -43,6 +49,7 @@ function App() {
  
     
     <Footer />
+    
     </>
   );
 }
