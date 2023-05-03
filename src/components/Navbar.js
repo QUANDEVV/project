@@ -49,8 +49,34 @@ const Navbar = ( ) => {
 
  
         <div  className="flex flex-row ml-auto gap-6 items-center">
-        <RxSwitch className='text-black dark:text-white  rounded-3xl h-6 w-6'  onClick={handleThemeSwitch}  />
-        
+       <input
+  type="checkbox"
+  className="hidden"
+  id="toggleTheme"
+  checked={theme === 'dark'}
+  onChange={handleThemeSwitch}
+/>
+<label
+  htmlFor="toggleTheme"
+  className="flex items-center cursor-pointer mt-2"
+>
+  <div className="relative">
+    <div
+      className="w-10 h-4 bg-gray-400 rounded-full shadow-inner"
+    ></div>
+    <div
+      className={`${
+        theme === 'dark' ? 'bg-white' : 'bg-gray-600'
+      } absolute left-0 top-0  w-6 h-6  rounded-full shadow transition-transform duration-300 transform ${
+        theme === 'dark' ? 'translate-x-full' : 'translate-x-0'
+      }`}
+    ></div>
+  </div>
+  <div className="ml-3 text-gray-700 dark:text-gray-300 font-medium">
+    {theme === 'dark' ? 'Dark Mode' : 'Light Mode'}
+  </div>
+</label>
+
         {/* <button className="bg-green-200 gap-7 p-2 rounded-3xl" onClick={handleThemeSwitch}>
         Dark Mode
       </button> */}
