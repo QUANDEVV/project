@@ -31,7 +31,7 @@ const LandingPage = ({ setProfile }) => {
           >
             <img
               src={profile.avatar}
-              alt={`Profile picture of ${profile.name}`}
+              alt={` ${profile.name}`}
               className='rounded-full h-24 w-24 object-cover border-4 border-transparent hover:border-red-500'
             />
             <div className='text-white text-lg font-bold mt-2'>

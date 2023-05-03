@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import ReactPlayer from 'react-player';
+
 
 const Continue = () => {
   const [movies, setMovies] = useState([]);

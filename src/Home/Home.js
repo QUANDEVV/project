@@ -6,7 +6,6 @@ import New from './New'
 import Anime from './Anime'
 import Action from './Action'
 import Hero from '../components/Hero'
-import Enter from '../pages/Enter'
 
 const Home = () => {
   return (

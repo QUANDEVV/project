@@ -8,7 +8,7 @@ import Films from './pages/Films';
 import New from './pages/New';
 import List from './pages/List';
 import Browse from './pages/Browse';
-import Hero from './components/Hero';
+
 import Enter from './pages/Enter';
 import LandingPage from './pages/LandingPage';
 import React, { useState } from 'react'; // import the useState hook from React
