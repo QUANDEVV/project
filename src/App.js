@@ -10,50 +10,42 @@ import List from './pages/List';
 import Browse from './pages/Browse';
 import Hero from './components/Hero';
 import Enter from './pages/Enter';
-
+import LandingPage from './pages/LandingPage';
+import React, { useState } from 'react'; // import the useState hook from React
 
 function App() {
+  const [selectedProfile, setSelectedProfile] = useState(
+    JSON.parse(localStorage.getItem('selectedProfile'))
+  );
+
+  const setProfile = (profile) => {
+    setSelectedProfile(profile);
+    localStorage.setItem('selectedProfile', JSON.stringify(profile));
+  };
+
   return (
     <>
-    <BrowserRouter>
-
-
-    <Navbar />
- 
-   
-    <Routes className="pt-10">
-    <Route path='/' element={<Home/>}></Route>
-
-
-    <Route path='/Enter' element={<Enter />} ></Route>
-
-      
-    <Route path='/series' element={<Series />}></Route>
-
-
-    <Route path='/Films' element={<Films />}></Route>
-
-
-  <Route path='/new' element={<New />}></Route>
-
-
-  <Route path='/list' element={<List />}></Route>
-
-
-  <Route path='/browse' element={<Browse />}></Route>
-     
-     
-     
-    </Routes>
-    </BrowserRouter>
- 
-    
-    <Footer />
-    
+      {!selectedProfile ? (
+        <LandingPage setProfile={setProfile} />
+      ) : (
+        <>
+          <BrowserRouter>
+            <Navbar />
+            <Routes className="pt-10">
+              <Route path='/' element={<Home />}></Route>
+              <Route path='/Enter' element={<Enter />}></Route>
+              <Route path='/series' element={<Series />}></Route>
+              <Route path='/Films' element={<Films />}></Route>
+              <Route path='/new' element={<New />}></Route>
+              <Route path='/list' element={<List />}></Route>
+              <Route path='/browse' element={<Browse />}></Route>
+            </Routes>
+          </BrowserRouter>
+          <Footer />
+        </>
+      )}
     </>
   );
 }
 
 export default App;
-
-
