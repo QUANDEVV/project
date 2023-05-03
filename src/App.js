@@ -39,11 +39,13 @@ function App() {
               <Route path='/new' element={<New />}></Route>
               <Route path='/list' element={<List />}></Route>
               <Route path='/browse' element={<Browse />}></Route>
+              
             </Routes>
           </BrowserRouter>
           <Footer />
         </>
       )}
+      
     </>
   );
 }

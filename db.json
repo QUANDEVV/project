@@ -60,6 +60,12 @@
   }
 
 ],
+
+
+
+
+
+
 "Scifi"  : [
   {
     "id": 1,
@@ -94,13 +100,239 @@
     "genre": "Sci-Fi, Horror",
     "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
     "releaseYear": 2016,
-    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABUqWqTrWjNDxK_78WnRwGKxJ62Z2rc9eGIDD6ebf4pFDEEurJo6RBkRYgZ2D5nXIPV5pJyGWEU65vRlo_Hj9MIxwKHoQBxcXRgyGqvJ9KuegsaJremqTbRUsUsqqpZbBU7DX.jpg?r=b25",
-    "url": "https://youtu.be/GVPzGBvPrzw"
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://youtu.be/b9EkMc79ZSU"
+  }
+
+
+],
+
+
+
+"trailers"  : [
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "The Crown",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://i.pinimg.com/originals/c2/cd/2b/c2cd2b12ecc14805bc93bb2fbeaddbed.jpg",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Narcos",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://i.redd.it/shpcwg0i73m51.jpg",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://www.youtube.com/watch?v=Se26Op9sEC8"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "url": "https://youtu.be/b9EkMc79ZSU"
   }
  
 
 
 ],
+
+
+
 "New" : [],
 "Anime": [],
 "Action" : []
