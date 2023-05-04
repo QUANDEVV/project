@@ -3,7 +3,6 @@ import ReactPlayer from 'react-player';
 import React, { useEffect, useState } from 'react';
 
 const Modal = ({ closeModal }) => {
-
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
@@ -11,47 +10,50 @@ const Modal = ({ closeModal }) => {
       .then(response => response.json())
       .then(data => setMovies(data));
   }, []);
-  return (
-    <div className="fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-80 flex justify-center items-center text-black dark:text-white ">
-      <div className="bg-white dark:bg-black p-6 rounded-lg relative text-black dark:text-white w-[50vw] h-[30vw]">
-        <button
-          className="absolute top-0 right-0 m-4 focus:outline-none"
-          onClick={closeModal}
-        >
-          <XCircleIcon className="w-8 h-8 text-black hover:text-gray-900  text-black dark:text-white" />
-        </button>
-        <h2 className="text-xl font-semibold mb-2">Movie Title</h2>
-        <div>
-        <video
-        className="w-full h-[16.25vw] object-cover brightness-[60%] transition duration-500"
-        autoPlay
-        muted
-        loop
-        src="./vid.mp4"
-      ></video>
-        </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-10 mb-20">
-        {movies.map((movie) => (
-          <div key={movie.id} className="bg-black rounded-lg shadow-lg overflow-hidden">
+  return (
+    <div className="fixed top-0 left-0 right-0 bottom-0   flex justify-center items-center ">
+      <div className=" bg-opacity-90 p-8 rounded-lg shadow-lg w-full max-w-5xl flex flex-col md:flex-row bg-white dark:bg-black">
+        <div className="w-full md:w-1/2">
+          <div className="relative h-0 pb-[56.25%]">
             <ReactPlayer
-              url={movie.url}
-              className="w-full h-full object-cover object-center"
+              url={movies[0]?.url}
+              className="absolute top-0 left-0 w-full h-full object-cover"
               controls
-              light={movie.poster} // use the movie poster as a preview image
+              light={movies[0]?.poster}
               width="100%"
               height="100%"
-              
             />
-            <div className="px-4 py-2">
-              <h3 className="text-lg font-bold mb-2">{movie.title}</h3>
-              <p className="text-gray-700 text-base">{movie.description}</p>
-            </div>
           </div>
-        ))}
-      </div>
-     
-       
+        </div>
+        <div className="w-full md:w-1/2 mt-8 md:mt-0 md:pl-8">
+          <button
+            className="absolute top-0 right-0 m-4 focus:outline-none"
+            onClick={closeModal}
+          >
+            <XCircleIcon className="w-8 h-8 text-white hover:text-gray-300" />
+          </button>
+          <h2 className="text-3xl font-semibold mb-4 text-black dark:text-white">{movies[0]?.title}</h2>
+          <p className=" mb-8 text-black dark:text-white">{movies[0]?.description}</p>
+          <h2 className='text-black dark:text-white font-bold '>You may also like</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+            {movies.slice(1, 10).map(movie => (
+              <div
+                key={movie.id}
+                className="relative h-2 pb-[140%] rounded-lg overflow-hidden"
+              >
+                <ReactPlayer
+                  url={movie.url}
+                  className="absolute top-0 left-0 w-full h-full object-cover"
+                  controls
+                  light={movie.poster}
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
