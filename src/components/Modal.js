@@ -41,6 +41,7 @@ const Modal = ({ closeModal }) => {
               light={movie.poster} // use the movie poster as a preview image
               width="100%"
               height="100%"
+              
             />
             <div className="px-4 py-2">
               <h3 className="text-lg font-bold mb-2">{movie.title}</h3>
