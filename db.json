@@ -106,9 +106,136 @@
 
 
 ],
-"New" : [],
-"Anime": [],
-"Action" : []
+"New" : [
+  
+      {
+        "id": 1,
+        "title": "The French Dispatch",
+        "genre": "Comedy, Drama",
+        "description": "A love letter to journalists set in an outpost of an American newspaper in a fictional 20th-century French city that brings to life a collection of stories published in 'The French Dispatch' magazine.",
+        "releaseYear": 2021,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQuMALRvycJdW-SOmd_aBPaXBk-X3OtYw2_w&usqp=CAU",
+        "url": "https://www.youtube.com/watch?v=OGFjWdi8E_g"
+      },
+      {
+        "id": 2,
+        "title": "Dune",
+        "genre": "Action, Adventure, Drama",
+        "description": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
+        "releaseYear": 2021,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxMdjnTxBwRk4ZzJjvd8AhBQUEjDq32zJEGg&usqp=CAU",
+        "url": "https://www.youtube.com/watch?v=n9xhJrPXop4"
+      },
+      {
+        "id": 3,
+        "title": "The Last Duel",
+        "genre": "Drama, History, Thriller",
+        "description": "King Charles VI declares that Knight Jean de Carrouges settle his dispute with his squire by challenging him to a duel.",
+        "releaseYear": 2021,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3DLmwznY0t83xRTu2pMcc6Kqxyl02OGMylA&usqp=CAU",
+        "url": "https://www.youtube.com/watch?v=8sAgbHNOXsI"
+      }, 
+  
+          {
+        "id": 4,
+        "title": "The French Dispatch",
+        "genre": "Comedy, Drama",
+        "description": "A love letter to journalists set in an outpost of an American newspaper in a fictional 20th-century French city that brings to life a collection of stories published in 'The French Dispatch' magazine.",
+        "releaseYear": 2021,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQuMALRvycJdW-SOmd_aBPaXBk-X3OtYw2_w&usqp=CAU",
+        "url": "https://www.youtube.com/watch?v=OGFjWdi8E_g"
+      },
+      {
+        "id": 5,
+        "title": "Dune",
+        "genre": "Action, Adventure, Drama",
+        "description": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
+        "releaseYear": 2021,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxMdjnTxBwRk4ZzJjvd8AhBQUEjDq32zJEGg&usqp=CAU",
+        "url": "https://www.youtube.com/watch?v=n9xhJrPXop4"
+      }
+    ],
+"Anime":  [
+  {
+  "id": 1,
+  "title": "Attack on Titan",
+  "genre": "Action, Dark Fantasy",
+  "description": "In a world where humanity lives inside cities surrounded by enormous walls due to the Titans, gigantic humanoid creatures who devour humans seemingly without reason, a young boy named Eren Jaeger dreams of going beyond the walls and seeing what lies beyond.",
+  "releaseYear": 2013,
+  "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRZgRyk02KIiu0qxFxiP4ruO1LvxOmv86RAQ&usqp=CAU",
+  "url": "https://youtu.be/bT9csxkth8g"
+  },
+  {
+  "id": 2,
+  "title": "Demon Slayer: Kimetsu no Yaiba",
+  "genre": "Action, Fantasy",
+  "description": "In Taishō-era Japan, Tanjiro Kamado, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by demons. He sets out on a dangerous journey to become a demon slayer and avenge his family.",
+  "releaseYear": 2019,
+  "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSpKG3UX7xFkvIKz6uQOthJmRIYVnyxe8usg&usqp=CAU",
+  "url": "https://youtu.be/VQGCKyvzIM4"
+  },
+  {
+  "id": 3,
+  "title": "My Hero Academia: World Heroes' Mission",
+  "genre": "Action, Superhero",
+  "description": "When a mysterious group called Humanize plans to wipe out all Quirk users, the heroes of UA must spring into action to stop them and protect the world.",
+  "releaseYear": 2021,
+  "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6aShbBUVscpFoBn5zcuSOurLEBTQFm1_Wpg&usqp=CAU",
+  "url": "https://youtu.be/ZclBluzAZVE"
+  },  
+  {
+  "id": 4,
+  "title": "Yasuke",
+  "genre": "Action, Historical Fantasy",
+  "description": "In a war-torn feudal Japan filled with mechs and magic, a retired ronin must take up his sword once more to protect a mysterious child with dark powers from those who seek to use her for their own purposes.",
+  "releaseYear": 2021,
+  "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfiVkc6XyXQ6dm4lUJdmVNHm4Y0uBfBtIcmw&usqp=CAU",
+  "url": "https://youtu.be/ijKAtzQY1wc"
+  },
+  {
+  "id": 5,
+  "title": "Edens Zero",
+  "genre": "Action, Science Fiction",
+  "description": "In the distant future, a young boy named Shiki Granbell sets out on a journey to find his place in the world, accompanied by a group of companions including a sentient android and a talking cat.",
+  "releaseYear": 2021,
+  "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuP2N8XjXTlONw_GNxG1lds-NhP2o5P0AS1A&usqp=CAU",
+  "url": "https://youtu.be/1Ykbdi94frI"
+  }
 
+],
 
+"Action" : 
+   [
+    {
+      "id": 1,
+      "title": "The Matrix",
+      "genre": ["Action", "Sci-Fi"],
+      "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "release_year": 1999,
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfJBwVeWeMDrD8EmIhtCD84azNGrtvScRZOA&usqp=CAU",
+      "url": "https://youtu.be/vKQi3bBA1y8"
+    },
+    {
+      "id": 2,
+      "title": "Forrest Gump",
+      "genre": ["Drama", "Romance"],
+      "description": "The presidencies of Kennedy and Johnson, the Vietnam War, and the civil rights movement shape the life of a young man from Alabama.",
+      "release_year": 1994,
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN8K3RFFvqE9FCsEdNEJwLKXhT1D-VqMQF0w&usqp=CAU",
+      "url": "https://youtu.be/XHhAG-YLdk8"
+    },
+    {
+      "id": 3,
+      "title": "The Shawshank Redemption",
+      "genre": ["Drama"],
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "release_year": 1994,
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7A7rfFIIhUFrADgNVwvmvMPzh3F_r3igVlw&usqp=CAU",
+      "url": "https://youtu.be/PLl99DlL6b4"
+    }
+  ]
 }
+
+
+
+
