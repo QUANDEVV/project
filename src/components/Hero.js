@@ -27,11 +27,7 @@ const Hero = () => {
           The Popes Exorcist
         </p>
         <p className="text-white text-[8px] md:text-lg mt-3 md:mt-8 w-[90%] md:w-[80%] lg:w-[50%] drop-shadow-xl">
-          heartwarming animated cartoon series that follows the exciting and
-          magical journey of Sparky, a young and mischievous dragon with a zest
-          for life. Set in the enchanting Dragonland, the series takes viewers
-          on a thrilling adventure filled with friendship, discovery, and life
-          lessons.
+        Inspired by the actual files of Father Gabriele Amorth, Chief Exorcist of the Vatican (Academy Award®-winner Russell Crowe), The Pope’s Exorcist follows Amorth as he investigates a young boy’s terrifying possession and ends up uncovering a centuries-old conspiracy the Vatican has desperately tried to keep hidden.
         </p>
         <div className="flex flex-row items-center mt-3 md:mt-4 gap-3">
           <button
