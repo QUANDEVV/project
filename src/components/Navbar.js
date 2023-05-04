@@ -70,11 +70,6 @@ const Navbar = ( ) => {
         </div>
 
 
-   
-
-
-
- {/* magic  */}
         <div  className="flex flex-row ml-auto gap-6 items-center">
 
    
