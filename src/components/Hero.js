@@ -24,7 +24,7 @@ const Hero = () => {
       ></video>
       <div className="absolute top-[30%] md:top-[40%] ml-4 md:ml-16">
         <p className="text-white text-1xl md:text-5xl h-full w-[50%] lg:text-6xl font-bold drop-shadow-xl">
-          The Adventures of Sparky the Dragon"
+          The Popes Exorcist
         </p>
         <p className="text-white text-[8px] md:text-lg mt-3 md:mt-8 w-[90%] md:w-[80%] lg:w-[50%] drop-shadow-xl">
           heartwarming animated cartoon series that follows the exciting and
