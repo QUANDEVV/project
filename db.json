@@ -26,9 +26,17 @@
       "releaseYear": 2015,
       "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABShS5g6O2AzbGmwUt-2EddTIi5fGAx1DS8lfpJtOd8GbOGq0YWJZr7xsPCDXflY2EE6Oh54rKCgfPQ2DdBMuRozV2xCPfZmD52c.webp?r=7c1",
       "url": "https://youtu.be/b9EkMc79ZSU"
+    },
+    {
+      "id": 3,
+      "title": "Narcos",
+      "genre": "Crime, Drama",
+      "description": "A chronicled look at the criminal exploits of Colombian drug lord Pablo Escobar, as well as the many other drug kingpins who plagued the country through the years.",
+      "releaseYear": 2015,
+      "poster": "https://occ-0-5535-32.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABUrdbsBSbgF4ULiSBA6baQFfyd8-WepRtTUwiefBl0J-IlPNOt03n6ECf0Z8-5h1HfBSHMTqKozDDtnuupPmndmdefdmjIFwJk0.webp?r=ce8",
+      "url": "https://youtu.be/b9EkMc79ZSU"
     }
   ],
-
 
 "Featured" : [
   {
@@ -37,7 +45,7 @@
     "genre": "Sci-Fi, Horror",
     "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
     "releaseYear": 2016,
-    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABVhEQ3GFEU33XRBiBIlTINqwOH_G8x-qSDRAWb_IZcFcjjf3lmPJCMW2Y4iMFJ3mLDvk0azs-oHGNdQLgVRiHhozkbIcQMl0tt_Cd5vqortyY2iicR13g_vj_WxwbUjtaUG8NfGzrV-3vtTb8y7YRJHeoibgQyTEk1CsJVtDrQLTF_9D4f7BExWfkxNh5YBUHo2AhLQomWFjsEcpucFa3BlJFS_Vd4sEzObp38RO0AD4lNXpk8JHNCZAAbojmzlNB-fVIVbzkEFFDJ9OOZE3jkzAXyL0oYtUFw3PqZw1Xjtt0pWLpOT1DdfgmdmAUAen-C5vc1Rxdnc1PLS-LuJZY1cbJsb4jV5GfFsQ7tbBtTrAiA.jpg?r=d1f",
+    "poster": "https://occ-0-5535-32.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABfFwg8SdXW5iUE-GBtK07AfiwRAAVRZnukJUiYwQQaNJgiI3Q_8rOxYJw729qPG8l22V-iM8jyuK8fBA1C84ys4irIa6B7xtfGZkNBEaq0QVeRbojORrouTfDp2QRlqdVanZ3IU5wHOKhgM7bXHdL7byyEtRIsxCnJjpMlBhU55_7V4r4qliJ4EUmI2Dhw0.jpg?r=a08",
     "url": "https://youtu.be/b9EkMc79ZSU"
   },
   {
@@ -55,7 +63,16 @@
     "genre": "Sci-Fi, Horror",
     "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
     "releaseYear": 2016,
-    "poster": "https://occ-0-6399-6126.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcc6WB2yG7OTJ_gIzGejxjhleuD4Ysjg7N6TA7Y8eIGbbc5PWORa96hhrAKCLVpBKV_2C4rwY-5hLGsRLV4SpQPsJGV7YNZyzJ4xwZcMZt4pD9CxF9l_tRHmKdOtsIwsEriB.jpg?r=c8f",
+    "poster": "https://occ-0-5535-32.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABVD3WPpGGTRZ8F2cSlD5eRdS9f1J7CpOeg7S2Ql1KM0yibN73oDxLJKPEK7mM1Zml0-SUn0EAYT7866j4o4NwCLYpZM4yLEbNG0.webp?r=ff8",
+    "url": "https://youtu.be/b9EkMc79ZSU"
+  },
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
+    "releaseYear": 2016,
+    "poster": "https://occ-0-5535-32.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABb_06zw131dRsn1E4oeJymNW7mtpbwkNPDB7xkctzhLq6hI3UWd7vpFFb7X8z4HmBKVxkksoo52B4piEEiR3oXeVsfb55u9jVEs.webp?r=a60",
     "url": "https://youtu.be/b9EkMc79ZSU"
   }
 

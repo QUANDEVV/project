@@ -16,7 +16,7 @@ const Continue = () => {
 
   return (
     <div className="container mx-auto my-5 mt-10 text-black dark:text-white">
-      <h2 className="text-3xl font-bold mb-5">Scifi</h2>
+      <h2 className="text-3xl font-bold mb-5">Continue Watching for Michael</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-10 mb-20">
         {movies.map((movie) => (
           <div key={movie.id} className="bg-black rounded-lg shadow-lg overflow-hidden">
