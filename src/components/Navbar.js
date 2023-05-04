@@ -11,7 +11,7 @@ const Navbar = ( ) => {
 
   const [theme, setTheme] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [users, setUsers] = useState(["User1", "User2", "User3"]);
+  const [users, setUsers] = useState(["John", "Sarah", "Michael"]);
 
 
 
@@ -108,16 +108,19 @@ const Navbar = ( ) => {
   />
 
   {isMenuOpen && (
- <div className="bg-black w-56 absolute top-14 right-0 py-5 flex-col border-2 border-gray-800 flex">
+ <div className="bg-white dark:bg-black w-56 absolute top-14 right-0 py-5 flex-col border-2 border-gray-500 flex">
  <div className="flex flex-col gap-3">
-   <div className="px-3 group/item flex flex-row gap-3 items-center w-full">
-     <img className="w-8 rounded-md" src="/images/default-blue.png" alt="" />
-     <p className="text-white text-sm group-hover/item:underline">{users}</p>
-   </div>
+ {users.map(user => (
+  <div key={user} className="px-3 group/item flex flex-row gap-3 items-center w-full">
+    <img className="w-8 rounded-md" src="/images/default-blue.png" alt="" />
+    <p className="text-black dark:text-white text-sm group-hover/item:underline">{user}</p>
+  </div>
+))}
+
  </div>
  <hr className="bg-gray-600 border-0 h-px my-4" />
- <div  className="px-3 text-center text-white text-sm hover:underline">
-   Sign out of
+ <div  className="px-3 text-center  text-sm hover:underline text-black dark:text-white">
+   Sign out
  </div>
 </div>
   )}

@@ -12,7 +12,7 @@ const Modal = ({ closeModal }) => {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 right-0 bottom-0   flex justify-center items-center bg-black bg-opacity-90">
+    <div className="fixed top-0 left-0 right-0 bottom-0   flex justify-center items-center bg-black bg-opacity-80">
       <div className=" bg-opacity-90 p-8 rounded-lg shadow-lg w-full max-w-5xl flex flex-col md:flex-row bg-white dark:bg-gray-900">
 
         <div className="w-full md:w-1/2">
