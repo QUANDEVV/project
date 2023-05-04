@@ -10,6 +10,10 @@ import { BellIcon, MagnifyingGlassIcon, ChevronDownIcon } from '@heroicons/react
 const Navbar = ( ) => {
 
   const [theme, setTheme] = useState(null);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [users, setUsers] = useState(["User1", "User2", "User3"]);
+
+
 
   useEffect(() => {
     if(window.matchMedia('(prefers-color-scheme: dark)').matches){
@@ -31,6 +35,12 @@ const Navbar = ( ) => {
   const handleThemeSwitch = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
+
+
+  const handleUserIconClick = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+  
   return (
     
     <div className="w-full fixed z-40 bg-black bg-white dark:bg-black ">
@@ -86,14 +96,32 @@ const Navbar = ( ) => {
           <div className="text-gray-200 hover:text-gray-300 cursor-pointer transition">
             <BellIcon className="w-6 dark:text-white text-black" />
           </div>
-          <div  className="flex flex-row items-center gap-2 cursor-pointer relative">
-            <div className="w-4 h-4 lg:w-10 lg:h-10 rounded-md overflow-hidden">
-              <img src='/logo5.jpeg' alt="" />
-            </div>
-            <ChevronDownIcon className={`w-4 text-black fill-white transition  'rotate-180' : 'rotate-0'}`} />
-          
-          </div>
-        </div>
+          <div className="flex flex-row items-center gap-2 cursor-pointer relative">
+  <div className="w-4 h-4 lg:w-10 lg:h-10 rounded-md overflow-hidden">
+    <img src='/logo5.jpeg' alt="" />
+  </div>
+  <ChevronDownIcon
+    className={`w-4 text-black fill-white transition ${
+      isMenuOpen ? 'rotate-180' : 'rotate-0'
+    }`}
+    onClick={handleUserIconClick}
+  />
+
+  {isMenuOpen && (
+ <div className="bg-black w-56 absolute top-14 right-0 py-5 flex-col border-2 border-gray-800 flex">
+ <div className="flex flex-col gap-3">
+   <div className="px-3 group/item flex flex-row gap-3 items-center w-full">
+     <img className="w-8 rounded-md" src="/images/default-blue.png" alt="" />
+     <p className="text-white text-sm group-hover/item:underline">{users}</p>
+   </div>
+ </div>
+ <hr className="bg-gray-600 border-0 h-px my-4" />
+ <div  className="px-3 text-center text-white text-sm hover:underline">
+   Sign out of Netflix
+ </div>
+</div>
+  )}
+</div>
 
       </div>
 
@@ -101,6 +129,8 @@ const Navbar = ( ) => {
 
 
       </div>
+      </div>
+
       
 
  
