@@ -8,16 +8,11 @@ import Films from './pages/Films';
 import New from './pages/New';
 import List from './pages/List';
 import Browse from './pages/Browse';
-import Hero from './components/Hero';
+
 import Enter from './pages/Enter';
 
 
-
 function App() {
-
-  const videoUrl = 'https://r2.1hanime.com/sakusei-byoutou-the-animation-5.mp4';
-
-
   return (
     <>
     <BrowserRouter>
@@ -51,13 +46,12 @@ function App() {
      
     </Routes>
     </BrowserRouter>
+ 
     
     <Footer />
-   
+    
     </>
   );
 }
 
 export default App;
-
-

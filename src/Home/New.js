@@ -2,7 +2,7 @@ import React from 'react'
 
 const New = () => {
   return (
-    <div>New Releases</div>
+    <div className='text-white pt-20 '>New Releases</div>
   )
 }
 

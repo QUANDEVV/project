@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
+
 const Continue = () => {
   const [movies, setMovies] = useState([]);
   const [hoverIndex, setHoverIndex] = useState(-1);
@@ -17,10 +18,10 @@ const Continue = () => {
   const handleLeave = () => {
     setHoverIndex(-1);
   };
-
+  
   return (
-    <div className=" container mx-auto my-5 mt-10">
-      <h2 className="text-3xl font-bold mb-5">Continue Watching For group 6</h2>
+    <div className=" container mx-auto my-5 mt-10 text-black dark:text-white">
+      <h2 className="text-3xl font-bold mb-5">Continue Watching For Michael</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-10 mb-20">
         {movies.map((movie, index) => (
           <div
