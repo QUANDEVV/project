@@ -13,9 +13,7 @@ const Modal = ({ closeModal }) => {
         </button>
         <h2 className="text-xl font-semibold mb-2">Movie Title</h2>
         <p className="text-gray-600">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie
-          nisi eget lectus bibendum, ac posuere est eleifend. Nullam sit amet
-          dolor vitae justo imperdiet venenatis.
+          Lorem 
         </p>
        
       </div>
