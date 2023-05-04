@@ -43,9 +43,9 @@ function App() {
     }
   }, [theme]);
 
-  const handleThemeSwitch = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
-  };
+  // const handleThemeSwitch = () => {
+  //   setTheme(theme === "dark" ? "light" : "dark");
+  // };
 
 
   return (

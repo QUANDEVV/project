@@ -2,8 +2,8 @@ import React from 'react'
 import NavbarItem from './NavbarItem'
 import { useEffect ,  useState } from 'react';
 import { BellIcon, MagnifyingGlassIcon, ChevronDownIcon } from '@heroicons/react/24/outline';
-import { AccountMenu } from './AccountMenu';
-import { RxSwitch } from 'react-icons/rx'
+// import { AccountMenu } from './AccountMenu';
+// import { RxSwitch } from 'react-icons/rx'
 
 
 
