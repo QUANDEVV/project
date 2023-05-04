@@ -76,11 +76,11 @@ const Navbar = ( ) => {
 
 
        <input
-  type="checkbox"
-  className="hidden"
-  id="toggleTheme"
-  checked={theme === 'dark'}
-  onChange={handleThemeSwitch}
+         type="checkbox"
+         className="hidden"
+         id="toggleTheme"
+         checked={theme === 'dark'}
+         onChange={handleThemeSwitch}
 />
 <label
   htmlFor="toggleTheme"
