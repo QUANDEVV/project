@@ -117,7 +117,7 @@ const Navbar = ( ) => {
  </div>
  <hr className="bg-gray-600 border-0 h-px my-4" />
  <div  className="px-3 text-center text-white text-sm hover:underline">
-   Sign out of Netflix
+   Sign out of
  </div>
 </div>
   )}
