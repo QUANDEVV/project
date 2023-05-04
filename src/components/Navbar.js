@@ -11,7 +11,7 @@ const Navbar = ( ) => {
 
   const [theme, setTheme] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [users, setUsers] = useState(["John", "Sarah", "Michael"]);
+  const [users, ] = useState(["John", "Sarah", "Michael"]);
 
 
 

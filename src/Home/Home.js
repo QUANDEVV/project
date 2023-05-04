@@ -2,9 +2,6 @@ import React from 'react'
 import Continue from './Continue'
 import Featured from './Featured'
 import Scifi from './Scifi'
-import New from './New'
-import Anime from './Anime'
-import Action from './Action'
 import Hero from '../components/Hero'
 
 const Home = () => {
@@ -16,9 +13,7 @@ const Home = () => {
       <Continue />
       <Featured />
       <Scifi />
-      <New />
-      <Anime />
-      <Action />
+     
 
 
     
