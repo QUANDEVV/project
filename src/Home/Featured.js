@@ -5,7 +5,7 @@ const Featured = () => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8002/Featured')
+    fetch('https://my-json-server.typicode.com/QUANDEVV/deploy/Featured')
       .then(response => response.json())
       .then(data => setMovies(data));
   }, []);
