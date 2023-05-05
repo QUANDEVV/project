@@ -5,7 +5,7 @@ const Scifi = () => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8002/Scifi')
+    fetch('https://my-json-server.typicode.com/barry-kn/bank-code--challange/Scifi')
       .then(response => response.json())
       .then(data => setMovies(data));
   }, []);
