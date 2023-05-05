@@ -2,7 +2,7 @@ import React from 'react'
 import NavbarItem from './NavbarItem'
 import { useEffect ,  useState } from 'react';
 import { BellIcon, MagnifyingGlassIcon, ChevronDownIcon } from '@heroicons/react/24/outline';
-
+import Confetti from 'react-confetti';
 
 // import { AccountMenu } from './AccountMenu';
 // import { RxSwitch } from 'react-icons/rx'
@@ -10,7 +10,7 @@ import { BellIcon, MagnifyingGlassIcon, ChevronDownIcon } from '@heroicons/react
 
 
 const Navbar = ( ) => {
-
+  const [showConfetti, setShowConfetti] = useState(false);
 
   const [theme, setTheme] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -44,13 +44,20 @@ const Navbar = ( ) => {
     setIsMenuOpen(!isMenuOpen);
   };
   
-
+  const handleClick = () => {
+    setShowConfetti(!showConfetti);
+  }
   return (
     
     <div className="w-full fixed z-40 bg-black bg-white dark:bg-black ">
       <div className={`px-4 md:px-16 py-6 flex flex-row items-center transition duration-500 'bg-zinc-900 bg-opacity-90' : ''}`}>
 
-   
+      <div className='text-gray-200 dark:text-gray-900'>
+      <button onClick={handleClick}>{showConfetti ? "●" : "●"}</button>
+      {showConfetti && <Confetti width={window.innerWidth} height={window.innerHeight} />}
+      {}
+    </div>
+        
       <img src='/logo.png' alt='' className="h-4 lg:h-7" />
      
       <div className="flex-row ml-8 gap-7 lg:flex md:flex-row ">
