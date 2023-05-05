@@ -5,7 +5,7 @@ const Continue = () => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8002/movies')
+    fetch('https://my-json-server.typicode.com/QUANDEVV/bots/movies')
       .then(response => response.json())
       .then(data => setMovies(data));
   }, []);
